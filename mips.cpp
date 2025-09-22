@@ -15,7 +15,7 @@ void output(int outputBase, const map<string,int>& table);
 
 int main(int argc, char *argv[]){
     if(argc != 3 || (strcmp(argv[2], "2") && strcmp(argv[2], "16"))){       //判斷參數 strcmp() 比較相等回傳0
-        cout << "usage: ./term1.exe filename {2,16}" << endl;
+        cout << "usage: ./mips.exe [Filename] [Base]" << endl;
         return 0;
     }
 
